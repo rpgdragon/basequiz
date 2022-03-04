@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/comun.css" />
+<link rel="stylesheet" href="css/resultspage.css" />
+<link rel="stylesheet" href="css/icon.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/test.js"></script>
+</head>
+<body>
+<header><img src="img/logo.png" alt="Logo" /><div id="encabezado"><h1>Test</h1></div><div><h1></h1></div></header>
+<section>
+<div id="pregunta"><p>Pregunta</p></div>
+<div id="respuestas"><button name="respuesta1" id="respuesta1" value="" onclick="marcarPregunta(this.value);">Respuesta 1</button><button name="respuesta2" id="respuesta2" value="" onclick="marcarPregunta(this.value);">Respuesta2</button><button name="respuesta3" id="respuesta3" value="" onclick="marcarPregunta(this.value);">Respuesta3</button><button name="respuesta4" id="respuesta4" value="" onclick="marcarPregunta(this.value);">Respuesta 4</button></div>
+</section>
+<section>
+    <div id="transicion">
+        <button name="atras" id="atras" value="" onclick="anteriorPregunta();"><i class="material-icons">arrow_circle_left</i></button>
+        <button name="adelante" id="adelante" value="" onclick="siguientePregunta();"><i class="material-icons">arrow_circle_right</i></button>
+    </div>
+</section>
+<footer><a href="index.html"><i class="material-icons">undo</i></a></footer>
+</body>
+</html>

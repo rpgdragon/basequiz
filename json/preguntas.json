@@ -1,0 +1,803 @@
+{
+	"version":"1.0",
+	"preguntas":[{
+		"id":"1",
+		"pregunta":"¿Qué significan las siglas HTML?",
+		"tema":"1",
+		"correcta":"Hyper Text Markup Language",
+		"opcion1":"Hyperlinks and Text Markup Language",
+		"opcion2":"Hyper Text Markup Language",
+		"opcion3":"Home Tool Markup Language",
+		"opcion4":"High Text Markup Language"
+	},
+	{
+		"id":"2",
+		"pregunta":"¿Quien se encarga de tramitar los estandares web?",
+		"tema":"1",
+		"correcta":"The World Wide Web Consortium",
+		"opcion1":"Google",
+		"opcion2":"Mozilla",
+		"opcion3":"Microsoft",
+		"opcion4":"The World Wide Web Consortium"
+	},
+	{
+		"id":"3",
+		"pregunta":"¿Con que etiqueta se pone el encabezado más grande?",
+		"tema":"4",
+		"correcta":"h1",
+		"opcion1":"heading",
+		"opcion2":"head",
+		"opcion3":"h1",
+		"opcion4":"h6"
+	},
+	{
+		"id":"4",
+		"pregunta":"¿Qué etiqueta utilizamos para definir el cuerpo del documento? ",
+		"tema":"3",
+		"correcta":"body",
+		"opcion1":"body",
+		"opcion2":"background",
+		"opcion3":"b",
+		"opcion4":"big"
+	},
+	{
+		"id":"5",
+		"pregunta":"¿Qué etiqueta utilizamos para insertar una línea horizontal? ",
+		"tema":"3",
+		"correcta":"hr",
+		"opcion1":"hr",
+		"opcion2":"br",
+		"opcion3":"line",
+		"opcion4":"wbr"
+	},
+	{
+		"id":"6",
+		"pregunta":"¿Cuál es la forma correcta de insertar un comentario?",
+		"tema":"1",
+		"correcta":"<!-- -->",
+		"opcion1":"<!-- -->",
+		"opcion2":"<comment>",
+		"opcion3":"<meta>",
+		"opcion4":"<¡-- --¡>"
+	},
+	{
+		"id":"7",
+		"pregunta":"Elija la etiqueta apropiada para un texto en negrita.",
+		"tema":"4",
+		"correcta":"b",
+		"opcion1":"b",
+		"opcion2":"bb",
+		"opcion3":"black",
+		"opcion4":"bold"
+	},
+	{
+		"id":"8",
+		"pregunta":"Elija la forma correcta de ingresar una imagen.",
+		"tema":"6",
+		"correcta":"<img src=''>",
+		"opcion1":"<img src=''>",
+		"opcion2":"<img href=''>",
+		"opcion3":"<image src=''>",
+		"opcion4":"<background src=''>"
+	},
+	{
+		"id":"9",		
+		"pregunta":"¿Qué etiqueta define un salto de línea?",
+		"tema":"3",
+		"correcta":"<br>",
+		"opcion1":"<br>",
+		"opcion2":"<break>",
+		"opcion3":"<linebreak>",
+		"opcion4":"<p>"
+	},
+	{
+		"id":"10",
+		"pregunta":"La etiqueta center",
+		"tema":"3",
+		"correcta":"Todas las opciones son correctas",
+		"opcion1":"Puede incluir otras etiquets en su interior",
+		"opcion2":"Permite centrar el contenido incluido en las etiquetas",
+		"opcion3":"Es una etiqueta obsoleta",
+		"opcion4":"Todas las opciones son correctas"
+	},
+	{
+		"id":"11",		
+		"pregunta":"¿Cuál es la forma correcta de escribir un enlace en HTML?",
+		"tema":"3",
+		"correcta":"<a href=' '>…</a>",
+		"opcion1":"<a title=' '>…</>",
+		"opcion2":"<a href=' '>…</a>",
+		"opcion3":"<a src=' '>…</a>",
+		"opcion4":"<link href=' '>…<link>"
+	},
+	{
+		"id":"12",		
+		"pregunta":"¿Qué etiqueta se usa para escribir una lista no ordenada?",
+		"tema":"3",
+		"correcta":"<ul>",
+		"opcion1":"<ol>",
+		"opcion2":"<ul>",
+		"opcion3":"<li>",
+		"opcion4":"<list>"
+	},
+	{
+		"id":"13",		
+		"pregunta":"¿Qué etiqueta se usa para denominar cada fila en una lista?",
+		"tema":"4",
+		"correcta":"<li>",
+		"opcion1":"<ol>",
+		"opcion2":"<ul>",
+		"opcion3":"<li>",
+		"opcion4":"<list>"
+	},
+		{
+		"id":"14",		
+		"pregunta":"Las siguientes instrucciones vienen acompañadas de un atributo. ¿Cuál es correcto?",
+		"tema":"6",
+		"correcta":"<img src='foto.jpg' alt='texto'>",
+		"opcion1":"<img src='foto.jpg' alt='texto'>",
+		"opcion2":"<img src='foto.jpg' value='texto'>",
+		"opcion3":"<img src='foto.jpg' text='texto'>",
+		"opcion4":"<img src='foto.jpg»' desc='texto'>"
+	},
+		{
+		"id":"15",		
+		"pregunta":"¿Cómo harías para que se abriera el enlace en la misma pestaña en la que nos encontramos?",
+		"tema":"4",
+		"correcta":"<a href='#' target='_self'>…</a>",
+		"opcion1":"<a href='#' target='_blank'>…</a>",
+		"opcion2":"<link href='#' target='_self'>…</link>",
+		"opcion3":"<link href='#' target='_blank'>…</link>",
+		"opcion4":"<a href='#' target='_self'>…</a>"
+	},
+		{
+		"id":"16",		
+		"pregunta":"¿Qué versión de html soporta la etiqueta <video>?",
+		"tema":"6",
+		"correcta":"HTML5",
+		"opcion1":"De HTML 3.2 en adelante",
+		"opcion2":"HTML5",
+		"opcion3":"HTML4",
+		"opcion4":"Todas las versiones de HTML"
+	},
+		{
+		"id":"17",		
+		"pregunta":"En relación al HTML5 elige la opción verdadera",
+		"tema":"4",
+		"correcta":"Todas las etiquetas tienen instrucción de apertura e instrucción de cierre obligatoriamente.",
+		"opcion1":"Todas las etiquetas se deben escribir en minúscula a excepción de las etiquetas <html>, <head>,<title> y <body>",
+		"opcion2":"Todas las etiquetas tienen instrucción de apertura e instrucción de cierre obligatoriamente.",
+		"opcion3":" El estándar de html5 oficial todavía no ha sido publicado por el w3c",
+		"opcion4":"Ninguna es cierta"
+	},
+		{
+		"id":"18",		
+		"pregunta":"¿Qué atributo de HTML se usa para definir un estilo entre líneas?",
+		"tema":"4",
+		"correcta":"style",
+		"opcion1":"style",
+		"opcion2":"code",
+		"opcion3":"name",
+		"opcion4":"value"
+	},
+		{
+		"id":"19",		
+		"pregunta":"En HTML, las etiquetas <h1>, <h2> y <h3> se emplean para definir",
+		"tema":"4",
+		"correcta":"encabezados",
+		"opcion1":"saltos",
+		"opcion2":"negritas",
+		"opcion3":"encabezados",
+		"opcion4":"párrafos"
+	},
+		{
+		"id":"20",		
+		"pregunta":"Etiqueta para establecer un enlace o link a otra página web",
+		"tema":"3",
+		"correcta":"<a>",
+		"opcion1":"<link>",
+		"opcion2":"<a>",
+		"opcion3":"<link>",
+		"opcion4":"<img>"
+	},
+		{
+		"id":"21",		
+		"pregunta":"Etiqueta con la que definimos un contenedor genérico.",
+		"tema":"3",
+		"correcta":"<div>",
+		"opcion1":"<div>",
+		"opcion2":"<a>",
+		"opcion3":"<container>",
+		"opcion4":"<img>"
+	},
+		{
+		"id":"22",		
+		"pregunta":"Etiqueta para enlazar una hoja de estilo css externo a la página html",
+		"tema":"2",
+		"correcta":"<link>",
+		"opcion1":"<link>",
+		"opcion2":"<a>",
+		"opcion3":"<css>",
+		"opcion4":"<meta>"
+	},
+		{
+		"id":"23",		
+		"pregunta":"Para definir el pie de la página se utiliza",
+		"tema":"3",
+		"correcta":"<footer>",
+		"opcion1":"<footer>",
+		"opcion2":"<header>",
+		"opcion3":"<body>",
+		"opcion4":"<section>"
+	},{
+		"id":"24",
+		"pregunta":"Para definir una clase a un elemento html se utiliza:",
+		"tema":"3",
+		"correcta":"class",
+		"opcion1":"class",
+		"opcion2":"link",
+		"opcion3":"div",
+		"opcion4":"id"
+	},
+	{
+		"id":"25",
+		"pregunta":"La extensión de un archivo de página html es",
+		"tema":"1",
+		"correcta":"html",
+		"opcion1":"html",
+		"opcion2":"css",
+		"opcion3":"img",
+		"opcion4":"htn"
+	},
+	{
+		"id":"26",
+		"pregunta":"¿Qué etiqueta define la fila de una tabla?",
+		"tema":"3",
+		"correcta":"<tr>",
+		"opcion1":"<tr>",
+		"opcion2":"<td>",
+		"opcion3":"<th>",
+		"opcion4":"<table>"
+	},
+	{
+		"id":"27",
+		"pregunta":"¿Con cuál etiqueta se definen los títulos de las secciones de mayor importancia de la página?",
+		"tema":"3",
+		"correcta":"<h1>",
+		"opcion1":"<h1>",
+		"opcion2":"<h6>",
+		"opcion3":"<strong>",
+		"opcion4":"<head>"
+	},
+	{
+		"id":"28",
+		"pregunta":"La etiqueta <title>",
+		"tema":"3",
+		"correcta":"Coloca el nombre del documento en la barra del título o en la pestaña",
+		"opcion1":"Coloca el nombre del documento en la barra del título o en la pestaña",
+		"opcion2":"Coloca el nombre de la página en la barra de herramientas",
+		"opcion3":"Coloca el nombre de la página en el costado izquierdo del navegador",
+		"opcion4":"Coloca el título de a la página"
+	},
+	{
+		"id":"29",
+		"pregunta":"¿Qué significa WWW?",
+		"tema":"1",
+		"correcta":"World Wide Web",
+		"opcion1":"World Wrestling League",
+		"opcion2":"World of Warcraft",
+		"opcion3":"We Were Winning",
+		"opcion4":"World Wide Web"
+	},
+	{
+		"id":"30",
+		"pregunta":"¿Para qué se usa DOCTYPE (DTD)?",
+		"tema":"1",
+		"correcta":"Se usa para indicar al navegador qué especificación de HTML o XHTML se está usando",
+		"opcion1":"Se usa para indicar al navegador qué especificación de HTML o XHTML se está usando",
+		"opcion2":"Se utiliza para iniciar los valores del documento html",
+		"opcion3":"Es una etiqueta que no ofrece ninguna información al navegador sino al usuario",
+		"opcion4":"Es u comentario insertado para informar que es un documento web"
+	},
+	{
+		"id":"31",
+		"pregunta":"¿Cuál es la función específica de la etiqueta <meta>?",
+		"tema":"2",
+		"correcta":"A través de esta etiqueta pueden especificarse los atributos name y content. El atributo name indica el tipo de información, y el atributo content ind",
+		"opcion1":"Se utiliza para agrupar información sobre la página web, como puede ser el título",
+		"opcion2":"Contiene la información propia del documento, es decir lo que pqueremos que se visualice, el texto de la página, las imágenes, los formularios",
+		"opcion3":"Especifica la página a la que está asociado el enlace, es decir, la página que se visualizará cuando el usuario haga clic en dicho enlace",
+		"opcion4":"A través de esta etiqueta pueden especificarse los atributos name y content. El atributo name indica el tipo de información, y el atributo content ind"
+	},
+	{
+		"id":"32",		
+		"pregunta":"Cuando se utiliza el atributo 'colspan' en la creación de tablas se hace referencia a",
+		"tema":"3",
+		"correcta":"combinar las celdas",
+		"opcion1":"combinar las celdas",
+		"opcion2":"unir todas las filas",
+		"opcion3":"centrar cabeceras de columna",
+		"opcion4":"dividir la tabla en dos"
+	},
+	{
+		"id":"33",
+		"pregunta":"Para crear un formulario en una página se utiliza la etiqueta",
+		"tema":"5",
+		"correcta":"<form>",
+		"opcion1":"<form>",
+		"opcion2":"<frame>",
+		"opcion3":"<format>",
+		"opcion4":"<font>"
+	},
+	{
+		"id":"34",		
+		"pregunta":"Para insertar un botón de enviar en un formulario se debe escribir",
+		"tema":"5",
+		"correcta":"<input name='enviar' type='submit' value='Enviar'>",
+		"opcion1":"<input name='boton' type='texto' value='Enviar'>",
+		"opcion2":"<input name='boton' type='button' value='Enviar'>",
+		"opcion3":"<input name='boton' type='target' value='Enviar'> ",
+		"opcion4":"<input name='enviar' type='submit' value='Enviar'>"
+	},
+	{
+		"id":"35",		
+		"pregunta":"¿Qué define la etiqueta <td> en HTML?",
+		"tema":"3",
+		"correcta":"Celda de una tabla",
+		"opcion1":"Celda de una tabla",
+		"opcion2":"Titulo de la tabla",
+		"opcion3":"Fila de la tabla",
+		"opcion4":"Encabezado de una tabla"
+	},
+	{
+		"id":"36",		
+		"pregunta":"Las etiquetas <ol> y <li> sirven para definir que clase de elemento",
+		"tema":"4",
+		"correcta":"Una lista ordenada",
+		"opcion1":"Una tabla",
+		"opcion2":"Una lista no ordenada",
+		"opcion3":"Una lista no ordenada",
+		"opcion4":"Un menú desplegable"
+	},
+		{
+		"id":"37",		
+		"pregunta":"Para insertar un campo de texto, el atributo type debe tener el valor de",
+		"tema":"5",
+		"correcta":"text",
+		"opcion1":"text",
+		"opcion2":"checkbox",
+		"opcion3":"radiobutton",
+		"opcion4":"select"
+	},
+		{
+		"id":"38",		
+		"pregunta":"¿Qué son los marcos (frames)?",
+		"tema":"4",
+		"correcta":"Partes es que se puede dividir la ventana del navegador para mostrar diferentes páginas web",
+		"opcion1":"Partes es que se puede dividir la ventana del navegador para mostrar diferentes páginas web",
+		"opcion2":"Partes que componen un formulario en las que se solicitan datos",
+		"opcion3":"Partes dentro de una misma página web a donde se pueden dirigir los enlaces",
+		"opcion4":"ninguna de las anteriores"
+	},
+		{
+		"id":"39",		
+		"pregunta":"En un formulario los botones de opción se utilizan para:",
+		"tema":"6",
+		"correcta":"tomar un solo valor de entre varios posibles.",
+		"opcion1":"tomar un valor de entre un único posible",
+		"opcion2":"tomar un solo valor de entre varios posibles.",
+		"opcion3":"tomar dos valores entre varios posibles ",
+		"opcion4":"ninguna es correcta"
+	},
+		{
+		"id":"40",		
+		"pregunta":"<input name='boton' type='submit' value='Enviar'> el resultado es un botón el cual tiene el nombre de",
+		"tema":"4",
+		"correcta":"boton",
+		"opcion1":"boton",
+		"opcion2":"borrar",
+		"opcion3":"enviar",
+		"opcion4":"guardar"
+	},
+	{
+		"id":"41",
+		"pregunta":"¿Qué significan las siglas HTML?",
+		"tema":"1",
+		"correcta":"Hyper Text Markup Language",
+		"opcion1":"Hyperlinks and Text Markup Language",
+		"opcion2":"Hyper Text Markup Language",
+		"opcion3":"Home Tool Markup Language",
+		"opcion4":"High Text Markup Language"
+	},
+	{
+		"id":"42",
+		"pregunta":"¿Quien se encarga de tramitar los estandares web?",
+		"tema":"1",
+		"correcta":"The World Wide Web Consortium",
+		"opcion1":"Google",
+		"opcion2":"Mozilla",
+		"opcion3":"Microsoft",
+		"opcion4":"The World Wide Web Consortium"
+	},
+	{
+		"id":"43",
+		"pregunta":"¿Con que etiqueta se pone el encabezado más grande?",
+		"tema":"4",
+		"correcta":"h1",
+		"opcion1":"heading",
+		"opcion2":"head",
+		"opcion3":"h1",
+		"opcion4":"h6"
+	},
+	{
+		"id":"44",
+		"pregunta":"¿Qué etiqueta utilizamos para definir el cuerpo del documento? ",
+		"tema":"3",
+		"correcta":"body",
+		"opcion1":"body",
+		"opcion2":"background",
+		"opcion3":"b",
+		"opcion4":"big"
+	},
+	{
+		"id":"45",
+		"pregunta":"¿Qué etiqueta utilizamos para insertar una línea horizontal? ",
+		"tema":"3",
+		"correcta":"hr",
+		"opcion1":"hr",
+		"opcion2":"br",
+		"opcion3":"line",
+		"opcion4":"wbr"
+	},
+	{
+		"id":"46",
+		"pregunta":"¿Cuál es la forma correcta de insertar un comentario?",
+		"tema":"1",
+		"correcta":"<!-- -->",
+		"opcion1":"<!-- -->",
+		"opcion2":"<comment>",
+		"opcion3":"<meta>",
+		"opcion4":"<¡-- --¡>"
+	},
+	{
+		"id":"47",
+		"pregunta":"Elija la etiqueta apropiada para un texto en negrita.",
+		"tema":"4",
+		"correcta":"b",
+		"opcion1":"b",
+		"opcion2":"bb",
+		"opcion3":"black",
+		"opcion4":"bold"
+	},
+	{
+		"id":"48",
+		"pregunta":"Elija la forma correcta de ingresar una imagen.",
+		"tema":"6",
+		"correcta":"<img src=''>",
+		"opcion1":"<img src=''>",
+		"opcion2":"<img href=''>",
+		"opcion3":"<image src=''>",
+		"opcion4":"<background src=''>"
+	},
+	{
+		"id":"49",		
+		"pregunta":"¿Qué etiqueta define un salto de línea?",
+		"tema":"3",
+		"correcta":"<br>",
+		"opcion1":"<br>",
+		"opcion2":"<break>",
+		"opcion3":"<linebreak>",
+		"opcion4":"<p>"
+	},
+	{
+		"id":"50",
+		"pregunta":"La etiqueta center",
+		"tema":"3",
+		"correcta":"Todas las opciones son correctas",
+		"opcion1":"Puede incluir otras etiquets en su interior",
+		"opcion2":"Permite centrar el contenido incluido en las etiquetas",
+		"opcion3":"Es una etiqueta obsoleta",
+		"opcion4":"Todas las opciones son correctas"
+	},
+	{
+		"id":"51",		
+		"pregunta":"¿Cuál es la forma correcta de escribir un enlace en HTML?",
+		"tema":"3",
+		"correcta":"<a href=' '>…</a>",
+		"opcion1":"<a title=' '>…</>",
+		"opcion2":"<a href=' '>…</a>",
+		"opcion3":"<a src=' '>…</a>",
+		"opcion4":"<link href=' '>…<link>"
+	},
+	{
+		"id":"52",		
+		"pregunta":"¿Qué etiqueta se usa para escribir una lista no ordenada?",
+		"tema":"3",
+		"correcta":"<ul>",
+		"opcion1":"<ol>",
+		"opcion2":"<ul>",
+		"opcion3":"<li>",
+		"opcion4":"<list>"
+	},
+	{
+		"id":"53",		
+		"pregunta":"¿Qué etiqueta se usa para denominar cada fila en una lista?",
+		"tema":"4",
+		"correcta":"<li>",
+		"opcion1":"<ol>",
+		"opcion2":"<ul>",
+		"opcion3":"<li>",
+		"opcion4":"<list>"
+	},
+		{
+		"id":"54",		
+		"pregunta":"Las siguientes instrucciones vienen acompañadas de un atributo. ¿Cuál es correcto?",
+		"tema":"6",
+		"correcta":"<img src='foto.jpg' alt='texto'>",
+		"opcion1":"<img src='foto.jpg' alt='texto'>",
+		"opcion2":"<img src='foto.jpg' value='texto'>",
+		"opcion3":"<img src='foto.jpg' text='texto'>",
+		"opcion4":"<img src='foto.jpg»' desc='texto'>"
+	},
+		{
+		"id":"55",		
+		"pregunta":"¿Cómo harías para que se abriera el enlace en la misma pestaña en la que nos encontramos?",
+		"tema":"4",
+		"correcta":"<a href='#' target='_self'>…</a>",
+		"opcion1":"<a href='#' target='_blank'>…</a>",
+		"opcion2":"<link href='#' target='_self'>…</link>",
+		"opcion3":"<link href='#' target='_blank'>…</link>",
+		"opcion4":"<a href='#' target='_self'>…</a>"
+	},
+		{
+		"id":"56",		
+		"pregunta":"¿Qué versión de html soporta la etiqueta <video>?",
+		"tema":"6",
+		"correcta":"HTML5",
+		"opcion1":"De HTML 3.2 en adelante",
+		"opcion2":"HTML5",
+		"opcion3":"HTML4",
+		"opcion4":"Todas las versiones de HTML"
+	},
+		{
+		"id":"57",		
+		"pregunta":"En relación al HTML5 elige la opción verdadera",
+		"tema":"4",
+		"correcta":"Todas las etiquetas tienen instrucción de apertura e instrucción de cierre obligatoriamente.",
+		"opcion1":"Todas las etiquetas se deben escribir en minúscula a excepción de las etiquetas <html>, <head>,<title> y <body>",
+		"opcion2":"Todas las etiquetas tienen instrucción de apertura e instrucción de cierre obligatoriamente.",
+		"opcion3":" El estándar de html5 oficial todavía no ha sido publicado por el w3c",
+		"opcion4":"Ninguna es cierta"
+	},
+		{
+		"id":"58",		
+		"pregunta":"¿Qué atributo de HTML se usa para definir un estilo entre líneas?",
+		"tema":"4",
+		"correcta":"style",
+		"opcion1":"style",
+		"opcion2":"code",
+		"opcion3":"name",
+		"opcion4":"value"
+	},
+		{
+		"id":"59",		
+		"pregunta":"En HTML, las etiquetas <h1>, <h2> y <h3> se emplean para definir",
+		"tema":"4",
+		"correcta":"encabezados",
+		"opcion1":"saltos",
+		"opcion2":"negritas",
+		"opcion3":"encabezados",
+		"opcion4":"párrafos"
+	},
+		{
+		"id":"60",		
+		"pregunta":"Etiqueta para establecer un enlace o link a otra página web",
+		"tema":"3",
+		"correcta":"<a>",
+		"opcion1":"<link>",
+		"opcion2":"<a>",
+		"opcion3":"<link>",
+		"opcion4":"<img>"
+	},
+		{
+		"id":"61",		
+		"pregunta":"Etiqueta con la que definimos un contenedor genérico.",
+		"tema":"3",
+		"correcta":"<div>",
+		"opcion1":"<div>",
+		"opcion2":"<a>",
+		"opcion3":"<container>",
+		"opcion4":"<img>"
+	},
+		{
+		"id":"62",		
+		"pregunta":"Etiqueta para enlazar una hoja de estilo css externo a la página html",
+		"tema":"2",
+		"correcta":"<link>",
+		"opcion1":"<link>",
+		"opcion2":"<a>",
+		"opcion3":"<css>",
+		"opcion4":"<meta>"
+	},
+		{
+		"id":"63",		
+		"pregunta":"Para definir el pie de la página se utiliza",
+		"tema":"3",
+		"correcta":"<footer>",
+		"opcion1":"<footer>",
+		"opcion2":"<header>",
+		"opcion3":"<body>",
+		"opcion4":"<section>"
+	},{
+		"id":"64",
+		"pregunta":"Para definir una clase a un elemento html se utiliza:",
+		"tema":"3",
+		"correcta":"class",
+		"opcion1":"class",
+		"opcion2":"link",
+		"opcion3":"div",
+		"opcion4":"id"
+	},
+	{
+		"id":"65",
+		"pregunta":"La extensión de un archivo de página html es",
+		"tema":"1",
+		"correcta":"html",
+		"opcion1":"html",
+		"opcion2":"css",
+		"opcion3":"img",
+		"opcion4":"htn"
+	},
+	{
+		"id":"66",
+		"pregunta":"¿Qué etiqueta define la fila de una tabla?",
+		"tema":"3",
+		"correcta":"<tr>",
+		"opcion1":"<tr>",
+		"opcion2":"<td>",
+		"opcion3":"<th>",
+		"opcion4":"<table>"
+	},
+	{
+		"id":"67",
+		"pregunta":"¿Con cuál etiqueta se definen los títulos de las secciones de mayor importancia de la página?",
+		"tema":"3",
+		"correcta":"<h1>",
+		"opcion1":"<h1>",
+		"opcion2":"<h6>",
+		"opcion3":"<strong>",
+		"opcion4":"<head>"
+	},
+	{
+		"id":"68",
+		"pregunta":"La etiqueta <title>",
+		"tema":"3",
+		"correcta":"Coloca el nombre del documento en la barra del título o en la pestaña",
+		"opcion1":"Coloca el nombre del documento en la barra del título o en la pestaña",
+		"opcion2":"Coloca el nombre de la página en la barra de herramientas",
+		"opcion3":"Coloca el nombre de la página en el costado izquierdo del navegador",
+		"opcion4":"Coloca el título de a la página"
+	},
+	{
+		"id":"69",
+		"pregunta":"¿Qué significa WWW?",
+		"tema":"1",
+		"correcta":"World Wide Web",
+		"opcion1":"World Wrestling League",
+		"opcion2":"World of Warcraft",
+		"opcion3":"We Were Winning",
+		"opcion4":"World Wide Web"
+	},
+	{
+		"id":"70",
+		"pregunta":"¿Para qué se usa DOCTYPE (DTD)?",
+		"tema":"1",
+		"correcta":"Se usa para indicar al navegador qué especificación de HTML o XHTML se está usando",
+		"opcion1":"Se usa para indicar al navegador qué especificación de HTML o XHTML se está usando",
+		"opcion2":"Se utiliza para iniciar los valores del documento html",
+		"opcion3":"Es una etiqueta que no ofrece ninguna información al navegador sino al usuario",
+		"opcion4":"Es u comentario insertado para informar que es un documento web"
+	},
+	{
+		"id":"71",
+		"pregunta":"¿Cuál es la función específica de la etiqueta <meta>?",
+		"tema":"2",
+		"correcta":"A través de esta etiqueta pueden especificarse los atributos name y content. El atributo name indica el tipo de información, y el atributo content ind",
+		"opcion1":"Se utiliza para agrupar información sobre la página web, como puede ser el título",
+		"opcion2":"Contiene la información propia del documento, es decir lo que pqueremos que se visualice, el texto de la página, las imágenes, los formularios",
+		"opcion3":"Especifica la página a la que está asociado el enlace, es decir, la página que se visualizará cuando el usuario haga clic en dicho enlace",
+		"opcion4":"A través de esta etiqueta pueden especificarse los atributos name y content. El atributo name indica el tipo de información, y el atributo content ind"
+	},
+	{
+		"id":"72",		
+		"pregunta":"Cuando se utiliza el atributo 'colspan' en la creación de tablas se hace referencia a",
+		"tema":"3",
+		"correcta":"combinar las celdas",
+		"opcion1":"combinar las celdas",
+		"opcion2":"unir todas las filas",
+		"opcion3":"centrar cabeceras de columna",
+		"opcion4":"dividir la tabla en dos"
+	},
+	{
+		"id":"73",
+		"pregunta":"Para crear un formulario en una página se utiliza la etiqueta",
+		"tema":"5",
+		"correcta":"<form>",
+		"opcion1":"<form>",
+		"opcion2":"<frame>",
+		"opcion3":"<format>",
+		"opcion4":"<font>"
+	},
+	{
+		"id":"74",		
+		"pregunta":"Para insertar un botón de enviar en un formulario se debe escribir",
+		"tema":"5",
+		"correcta":"<input name='enviar' type='submit' value='Enviar'>",
+		"opcion1":"<input name='boton' type='texto' value='Enviar'>",
+		"opcion2":"<input name='boton' type='button' value='Enviar'>",
+		"opcion3":"<input name='boton' type='target' value='Enviar'> ",
+		"opcion4":"<input name='enviar' type='submit' value='Enviar'>"
+	},
+	{
+		"id":"75",		
+		"pregunta":"¿Qué define la etiqueta <td> en HTML?",
+		"tema":"3",
+		"correcta":"Celda de una tabla",
+		"opcion1":"Celda de una tabla",
+		"opcion2":"Titulo de la tabla",
+		"opcion3":"Fila de la tabla",
+		"opcion4":"Encabezado de una tabla"
+	},
+	{
+		"id":"76",		
+		"pregunta":"Las etiquetas <ol> y <li> sirven para definir que clase de elemento",
+		"tema":"4",
+		"correcta":"Una lista ordenada",
+		"opcion1":"Una tabla",
+		"opcion2":"Una lista no ordenada",
+		"opcion3":"Una lista no ordenada",
+		"opcion4":"Un menú desplegable"
+	},
+		{
+		"id":"77",		
+		"pregunta":"Para insertar un campo de texto, el atributo type debe tener el valor de",
+		"tema":"5",
+		"correcta":"text",
+		"opcion1":"text",
+		"opcion2":"checkbox",
+		"opcion3":"radiobutton",
+		"opcion4":"select"
+	},
+		{
+		"id":"78",		
+		"pregunta":"¿Qué son los marcos (frames)?",
+		"tema":"4",
+		"correcta":"Partes es que se puede dividir la ventana del navegador para mostrar diferentes páginas web",
+		"opcion1":"Partes es que se puede dividir la ventana del navegador para mostrar diferentes páginas web",
+		"opcion2":"Partes que componen un formulario en las que se solicitan datos",
+		"opcion3":"Partes dentro de una misma página web a donde se pueden dirigir los enlaces",
+		"opcion4":"ninguna de las anteriores"
+	},
+		{
+		"id":"79",		
+		"pregunta":"En un formulario los botones de opción se utilizan para:",
+		"tema":"6",
+		"correcta":"tomar un solo valor de entre varios posibles.",
+		"opcion1":"tomar un valor de entre un único posible",
+		"opcion2":"tomar un solo valor de entre varios posibles.",
+		"opcion3":"tomar dos valores entre varios posibles ",
+		"opcion4":"ninguna es correcta"
+	},
+		{
+		"id":"80",		
+		"pregunta":"<input name='boton' type='submit' value='Enviar'> el resultado es un botón el cual tiene el nombre de",
+		"tema":"4",
+		"correcta":"boton",
+		"opcion1":"boton",
+		"opcion2":"borrar",
+		"opcion3":"enviar",
+		"opcion4":"guardar"
+	}
+	]
+}
+		
